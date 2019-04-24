@@ -2,6 +2,12 @@
 
 Python wrapper for accessing the OpenSpending API
 
+## Installation
+
+```
+pip install git+https://github.com/Gijs-Koot/openspending-data
+```
+
 ## Usage
 
 ```

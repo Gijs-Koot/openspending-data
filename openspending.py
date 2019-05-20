@@ -2,6 +2,7 @@ import requests
 from urllib.parse import urljoin
 from itertools import islice
 import logging
+import json
 
 
 class OpenSpending(object):
@@ -32,7 +33,7 @@ class OpenSpending(object):
                 for obj in response["objects"]:
                     yield obj
                 nxt = response["meta"]["next"]
-            except requests.JSONDecodeError as e:
+            except json.JSONDecodeError as e:
                 logging.warning(f"Got error {e}\n{raw.content}")
 
 

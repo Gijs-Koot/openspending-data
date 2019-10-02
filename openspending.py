@@ -3,6 +3,7 @@ from typing import List, Dict
 from urllib.parse import urljoin
 from itertools import islice
 import logging
+import json
 
 
 class OpenSpending(object):

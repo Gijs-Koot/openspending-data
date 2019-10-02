@@ -1,6 +1,6 @@
 # `openspending-data`
 
-Python wrapper for accessing the OpenSpending API
+Python wrapper for accessing the OpenSpending API. Not complete at all, only works for the `governments` and `entries` endpoints, see https://openspending.nl/api/v1 for documentation of these. 
 
 ## Installation
 
